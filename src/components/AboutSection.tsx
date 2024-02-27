@@ -3,6 +3,7 @@ import TI from "../assets/tasksI.svg";
 import SI from "../assets/sharingI.svg";
 import DI from "../assets/deadlineI.svg";
 import P1 from "../assets/pattern1.svg";
+import { Divider } from "antd";
 
 const AboutSection = () => {
 	return (
@@ -63,7 +64,7 @@ const AboutSection = () => {
 						</div>
 					</div>
 				</div>
-				<div className="border-t border-solid border-[#E7E9ED] w-full"></div>
+				<Divider />
 				<div className="py-16 flex flex-col md:flex-row justify-between gap-y-10">
 					<div className="text-CDark basis-1/2 flex flex-col gap-5">
 						<h2 className="text-3xl font-bold text-center md:text-left">
@@ -75,7 +76,7 @@ const AboutSection = () => {
 						</p>
 					</div>
 					<div className="flex justify-center items-center">
-						<button className="bg-CBlue text-white font-bold rounded-lg px-4 py-3">
+						<button className="bg-CBlue text-white font-bold rounded-lg px-4 py-3 hover:opacity-90">
 							Get started a project
 						</button>
 					</div>

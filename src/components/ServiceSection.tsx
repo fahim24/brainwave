@@ -30,7 +30,7 @@ const ServiceSection = () => {
 								next landing page.
 							</p>
 						</div>
-						<button className="text-white font-bold flex gap-3 items-center justify-center">
+						<button className="text-white font-bold flex gap-3 items-center justify-center hover:text-CDark">
 							Learn more
 							<span>
 								<FontAwesomeIcon icon={faArrowRight} />
@@ -48,7 +48,7 @@ const ServiceSection = () => {
 								next landing page.
 							</p>
 						</div>
-						<button className="text-white font-bold flex gap-3 items-center justify-center">
+						<button className="text-white font-bold flex gap-3 items-center justify-center hover:text-CDark">
 							Learn more
 							<span>
 								<FontAwesomeIcon icon={faArrowRight} />
@@ -66,7 +66,7 @@ const ServiceSection = () => {
 								next landing page.
 							</p>
 						</div>
-						<button className="text-white font-bold flex gap-3 items-center justify-center">
+						<button className="text-white font-bold flex gap-3 items-center justify-center hover:text-CDark">
 							Learn more
 							<span>
 								<FontAwesomeIcon icon={faArrowRight} />

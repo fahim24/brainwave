@@ -6,8 +6,8 @@ import NavSection from "./NavSection";
 const HeroSection = () => {
 	return (
 		<div className="relative">
-			<div className="bg-[#f4f7fa] w-full h-full absolute top-0 left-0 z-[-2]"></div>
-			<div className="bgI2 absolute w-full h-full top-0 left-0 z-[-1]"></div>
+			<div className="bg-[#f4f7fa] w-full h-full absolute top-0 left-0 z-[-3]"></div>
+			<div className="bgI2 absolute w-full h-full top-0 left-0 z-[-2]"></div>
 			<section className="container mx-auto px-10 ">
 				<NavSection />
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-24 py-20 lg:py-40">
@@ -21,17 +21,17 @@ const HeroSection = () => {
 							next consultancy website within few minutes.
 						</p>
 						<div>
-							<button className="bg-CBlue text-white font-bold rounded-lg px-4 py-3">
+							<button className="bg-CBlue text-white font-bold rounded-lg px-4 py-3 hover:opacity-90">
 								Get started a project
 							</button>
 						</div>
 					</div>
 					<div className="relative h-fit w-fit mx-auto">
-						<img src={P1} alt="person pic" className="obejct-cover rounded-full " />
+						<img src={P1} alt="person pic" className="obejct-cover rounded-full" />
 						<img
 							src={Pat1}
 							alt="pattern"
-							className="absolute top-0 left-1/4 -translate-x-3/4 -translate-y-1/2 "
+							className="absolute top-0 left-1/4 -translate-x-3/4 -translate-y-1/2 z-[-1]"
 						/>
 						<img src={Pat2} alt="pattern" className="absolute left-0 top-3/4" />
 						<img src={Pat3} alt="pattern" className="absolute top-3/4 right-10" />

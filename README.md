@@ -8,3 +8,5 @@
 - Vite
 - Reactjs
 - TailWindCSS
+- FontAwesome
+- ant design

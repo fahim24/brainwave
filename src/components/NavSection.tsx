@@ -37,7 +37,7 @@ const NavSection = () => {
 					<h2 className="text-CDark font-bold text-2xl">Brainwave.io</h2>
 				</a>
 				<button
-					className="block lg:hidden bg-CBlue text-white font-bold rounded-lg  py-3 px-4"
+					className="block lg:hidden bg-CBlue text-white font-bold rounded-lg  py-3 px-4 hover:opacity-90"
 					title="Open/Close nav menu"
 					onClick={toggleMenu}
 				>
@@ -62,7 +62,10 @@ const NavSection = () => {
 						Contact
 					</a>
 				</div>
-				<button className="bg-CBlue text-white font-bold rounded-lg px-4 py-3 justify-end">
+				<button
+					className="bg-CBlue text-white font-bold rounded-lg px-4 py-3 justify-end hover:opacity-90"
+					onClick={resetMenu}
+				>
 					Get started a project
 				</button>
 			</div>

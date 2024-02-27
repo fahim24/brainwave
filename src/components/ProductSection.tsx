@@ -1,9 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import P1 from "../assets/product1.png";
 import P2 from "../assets/product2.png";
 import P3 from "../assets/product3.png";
 import P4 from "../assets/product4.png";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const ProductSection = () => {
 	return (
@@ -45,7 +45,7 @@ const ProductSection = () => {
 						</div>
 					</div>
 				</div>
-				<button className="text-CBlue font-bold text-lg flex gap-3 items-center justify-center">
+				<button className="text-CBlue font-bold text-lg hover:text-xl flex gap-3 items-center justify-center">
 					See all works
 					<span>
 						<FontAwesomeIcon icon={faArrowRight} />

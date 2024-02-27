@@ -7,12 +7,13 @@ import P3 from "../assets/profile5.png";
 import P4 from "../assets/profile6.png";
 
 import Pat1 from "../assets/pattern6.svg";
+import { Divider } from "antd";
 
 const StorySection = () => {
 	return (
 		<section className="container mx-auto px-10">
 			<div className="flex flex-col md:flex-row gap-x-20 gap-y-10 md:p-10 lg:p-20 ">
-				<img src={P1} alt="person pic" className="rounded-full h-40 w-40 object-cover mx-auto" />
+				<img src={P1} alt="person pic" className="rounded-full size-40 object-cover mx-auto" />
 				<div className="flex flex-col gap-6">
 					<div className="text-[#FCAD38] flex justify-center md:justify-start gap-2 order-2 md:order-1">
 						<FontAwesomeIcon icon={faStar} />
@@ -25,13 +26,13 @@ const StorySection = () => {
 						OMG! I cannot believe that I have got a brand new landing page after getting Albino. It
 						was super easy to edit and publish.
 					</q>
-					<div className="flex flex-col gap-2 text-CDark text-center md:text-left order-1 md:order-3">
+					<div className="space-y-2 text-CDark text-center md:text-left order-1 md:order-3">
 						<p className=" font-bold">Franklin Hicks</p>
 						<p className="opacity-70">Web Developer</p>
 					</div>
 				</div>
 			</div>
-			<div className="border-t border-solid border-[#E7E9ED] w-full"></div>
+			<Divider />
 			<div className="py-24 flex flex-col gap-20">
 				<div className="w-full md:w-3/4 lg:w-2/5 flex flex-col gap-10">
 					<p className="text-CRed text-sm uppercase font-bold">Our Story</p>
